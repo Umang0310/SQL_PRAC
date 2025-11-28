@@ -20,4 +20,4 @@ VALUES
 (4, 'Bob', 'Brown', 'MARKETING', 45000.00, '2019-04-11'),
 (5, 'Charlie', 'Davis', 'IT', 55000.00, '2021-09-20');
 
-SELECT * FROM Employees
+SELECT * FROM Employees--OUTPUT
