@@ -14,4 +14,4 @@ SELECT EmployeeID,CONCAT(firstname,' ',lastname) [FULL NAME] FROM Employees --AD
 
 SELECT EmployeeID,CONCAT(firstname,' ',lastname) AS [FULL NAME] FROM Employees --ADD ALIASES FOR THE CONCAT
 
- 
+  
