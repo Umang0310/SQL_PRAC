@@ -7,7 +7,7 @@ select * from #temp1
 --or another SQL Server instance, 
 --it will not be recognized and will result in an error.
 
-select * from ##temp2  
+select * from ##temp2   
 
 --A temporary table with a double pound sign (##) 
 --is recognized in other query windows and even in other SQL Server instances,
