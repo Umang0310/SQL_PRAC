@@ -11,7 +11,7 @@ order by FirstName asc, Salary desc
 --Within each first name, the results are further sorted in descending order by the salary column. 
 --You can specify ASC for ascending order, or omit it since ascending is the default. 
 --For descending order, you must use DESC.
-  
+   
 select * from Employees
 order by Department asc, Salary desc
 --After executing this statement, the departments are sorted alphabetically. 
