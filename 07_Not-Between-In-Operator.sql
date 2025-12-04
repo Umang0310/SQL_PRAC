@@ -11,7 +11,7 @@ where Salary between 75000 and 85000
     
 select * from EmployeeRecords
 where Salary >= 75000 and Salary<= 85000
-
+ 
 select * from EmployeeRecords
 where Salary not between 75000 and 85000
  
