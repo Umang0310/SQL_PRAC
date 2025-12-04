@@ -8,7 +8,7 @@ where not LastName = 'Miller' or not Department = 'HR'
 
 select * from EmployeeRecords
 where Salary between 75000 and 85000
-
+ 
 select * from EmployeeRecords
 where Salary >= 75000 and Salary<= 85000
 
