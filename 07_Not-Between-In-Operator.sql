@@ -17,7 +17,7 @@ where Salary not between 75000 and 85000
  
 select * from EmployeeRecords
 where not Salary between 75000 and 85000
-
+ 
 select * from EmployeeRecords
 where Department = 'HR' or Department = 'IT'
 
