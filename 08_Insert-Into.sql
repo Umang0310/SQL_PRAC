@@ -8,7 +8,7 @@ insert into dbo.Employees
 values(8,'Kishan', 'Gaandu', 'Cleaning', 00069, '2004-10-05')
 
 select * from dbo.Employees
-
+ 
 --If you do not specify column names, the order of values must match the order of columns in the table. 
 --To check the order, you can query the INFORMATION_SCHEMA.COLUMNS table
 
