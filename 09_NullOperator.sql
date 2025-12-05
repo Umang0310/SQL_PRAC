@@ -15,7 +15,6 @@ select * from dbo.Employees where Department = null
   
 select * from dbo.Employees where Department is null
  
-   
 select * from dbo.Employees where Department is not null
 
 --Null values in SQL represent missing or blank data at the time of record creation.
