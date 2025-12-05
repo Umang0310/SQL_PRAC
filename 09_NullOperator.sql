@@ -12,7 +12,7 @@ select * from dbo.Employees where Department = null
  
 --Executing this above statement does not return any results, nor does it throw an error. 
 --This is because the correct way to check for null values is to use the IS NULL operator.
- 
+  
 select * from dbo.Employees where Department is null
  
   
