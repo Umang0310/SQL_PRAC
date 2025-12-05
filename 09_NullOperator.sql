@@ -14,7 +14,7 @@ select * from dbo.Employees where Department = null
 --This is because the correct way to check for null values is to use the IS NULL operator.
   
 select * from dbo.Employees where Department is null
- 
+   
 select * from dbo.Employees where Department is not null
 
 --Null values in SQL represent missing or blank data at the time of record creation.
