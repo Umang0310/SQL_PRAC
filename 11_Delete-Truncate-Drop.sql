@@ -13,7 +13,7 @@ select * from #4
 
 --If you use the DELETE statement without a WHERE clause, 
 --all records in the table will be deleted, but the table structure remains.
-
+ 
 delete from #4
 
 --When using DELETE or UPDATE, especially in a production environment, 
