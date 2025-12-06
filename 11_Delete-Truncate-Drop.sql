@@ -9,7 +9,7 @@ where LastName = '' or Department = '0'
 
 select * into #4 from Employees
 
-select * from #4    
+select * from #4         
 
 --If you use the DELETE statement without a WHERE clause, 
 --all records in the table will be deleted, but the table structure remains.
