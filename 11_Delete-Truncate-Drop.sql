@@ -5,7 +5,7 @@ select * into #3 from Employees
 select * from #3
 
 delete from #3
-where LastName = '' or Department = '0'  
+where LastName = '' or Department = '0'   
 
 select * into #4 from Employees
 
