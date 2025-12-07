@@ -13,7 +13,7 @@ CREATE TABLE dbo.sales (
     PaymentMethod VARCHAR(50) 
 );
 
-
+ 
 insert into dbo.sales (ProductID, SaleDate, Quantity, TotalAmount, CustomerID, StoreID, SalespersonID, PaymentMethod)
 VALUES 
 (1, '2023-08-01', 10, 200.00, 101, 1, 201, 'Credit Card'),
