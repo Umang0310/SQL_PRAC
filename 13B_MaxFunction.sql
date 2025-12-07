@@ -10,7 +10,7 @@ select max(paymentmethod) as [max pay method] from sales
 --Maximum Quantity sold for each productID
 select productid, max(quantity) as [max quantity] from sales
 group by ProductID
-
+ 
 select * from dbo.sales
 
 --Maximum Total Amount for all distinct dates in saledate column
