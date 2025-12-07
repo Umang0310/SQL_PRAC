@@ -5,7 +5,7 @@ select max(totalamount) as [maximum amount] from sales
 select max(saledate) as[max sales date] from sales
 
 select max(paymentmethod) as [max pay method] from sales
-
+ 
   
 --Maximum Quantity sold for each productID
 select productid, max(quantity) as [max quantity] from sales
