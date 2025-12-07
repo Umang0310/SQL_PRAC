@@ -7,7 +7,7 @@ is a multi line
 comment
 Multi-line comments are enclosed between /* and */. 
 */
-
+ 
 select top 2 * from Employees
 
 select top 5 employeeid ,salary from Employees
