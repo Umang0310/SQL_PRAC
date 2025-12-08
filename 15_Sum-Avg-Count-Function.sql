@@ -9,7 +9,7 @@ select avg(quantity) [average quantity] from sales;
 select avg(quantity) [avg quantity], avg(TotalAmount) [avg of amount] from sales;
  
 select * from sales;
-
+ 
 --Sum of Quantity, sum of totalamount, avg of quantity, avg of total amount for each distinct product
 select ProductID, sum(Quantity) [sum of quantity],
 sum(TotalAmount) [sum of amount],
