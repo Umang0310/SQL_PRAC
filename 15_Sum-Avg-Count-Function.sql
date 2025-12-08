@@ -17,7 +17,7 @@ avg(quantity) [avg quantity],
 avg(TotalAmount) [avg of amount]
 from sales
 group by ProductID
- 
+  
 select * from sales;
 
 --Sum of Quantity, sum of amount, avg of quantity & avg of amount for distinct combinations of ProductID & storeid
