@@ -27,7 +27,7 @@ avg(quantity) [avg quantity],
 avg(TotalAmount) [avg of amount]
 from sales
 group by ProductID,StoreID
-
+ 
 select * from sales
 
 select count(*) [number of rows] from sales
