@@ -8,4 +8,4 @@ select min(paymentmethod) [min pay method] from sales
 
 --show minimum total amount for each storeid
 select storeid, min(totalamount) [min total amount] from sales 
-group by StoreID
+group by StoreID 
