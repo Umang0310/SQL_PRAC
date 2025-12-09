@@ -8,7 +8,7 @@ avg(Quantity) [avg of quantity]
 from sales
 group by ProductID
 having sum(totalamount)<700 or sum(quantity) = 21
-      
+       
 --The HAVING clause is used to filter grouped records after aggregation.
 --HAVING is generally used with GROUP BY to apply conditions on aggregated data.
 --Multiple conditions can be combined in HAVING using logical operators like AND.
