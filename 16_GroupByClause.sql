@@ -3,7 +3,7 @@ select * from sales
 select paymentmethod , sum(totalamount) as [sum of sales]
 from sales
 group by PaymentMethod
-
+ 
 select ProductID, Paymentmethod, sum(totalamount) as [sum of sales]
 from dbo.sales
 group by ProductID, PaymentMethod
