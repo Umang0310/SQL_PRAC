@@ -8,7 +8,7 @@ insert into table3 values (1,'A'),
 (NULL,'D'),
 (3,'E'),
 (9,'FA')
-
+ 
 create table table4 (C1 int, C3 nvarchar(max))
 
 insert into table4 values (1,'VA'),
