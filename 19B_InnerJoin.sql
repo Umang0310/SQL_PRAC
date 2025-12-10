@@ -7,7 +7,7 @@ on table3.c1=table4.c1
 
 select table3.c1, table3.c2, table4.c3 from table3
 inner join table4 on table3.c1=table4.c1
-
+ 
 select a.c1,a.c2,b.c3 from table3 a
 inner join table4 b
 on a.c1=b.c1
