@@ -6,7 +6,7 @@ select * from sales
 select productid,sum(totalamount) [sum of sales] from sales
 group by productid
 having sum(totalamount)<700
-
+ 
 select productid,sum(totalamount) [sum of sales] from sales
 where TotalAmount>=140
 group by productid
