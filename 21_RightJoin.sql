@@ -4,7 +4,7 @@ select * from table4
 
 select * from table3 right join table4
 on table3.c1=table4.c1
-
+ 
 select * from table3 right outer join table4
 on table3.c1 = table4.c1
  
