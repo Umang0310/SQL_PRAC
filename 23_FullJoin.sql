@@ -7,7 +7,7 @@ full join table4 as b
 on a.c1=b.c1
 
 --A full outer join will include three things:
-
+ 
 --The output of the inner join
 --The output of whatever is present only in the left table
 --The output of whatever is present only in the right table
