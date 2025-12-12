@@ -11,7 +11,7 @@ where table4.c1 is null
 select * from table3 right join table4
 on table3.c1=table4.c1
 where table3.c1 is null
-
+ 
 --left/right anti join, we mean that we want those records to appear in the output 
 --which are present only in the left/right table.
 
