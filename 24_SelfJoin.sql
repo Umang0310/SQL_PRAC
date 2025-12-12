@@ -10,7 +10,7 @@ select * from table3
 
 select a.c1,b.c2 from table1 a join table1 b
 on a.c1=b.c1
-
+ 
 --A self-join involves joining a table to itself. For example, consider a table named table1. 
 --We will join table1 to itself, assigning different alias names to distinguish the two instances in the query.
 
