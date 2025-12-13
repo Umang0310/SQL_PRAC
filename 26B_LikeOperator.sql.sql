@@ -3,7 +3,7 @@ The LIKE operator is generally used with two wildcards:
 % (percentage sign): Represents zero, one, or multiple characters.
 _ (underscore): Represents exactly one character.
 */
- 
+  
 select * from Employees_US
  
 --1) Find Employees whose Last Name starts with 'S'.
