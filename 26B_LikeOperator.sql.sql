@@ -11,7 +11,7 @@ select * from Employees_US where LastName like 's%'
  
 --2) Find Employees whose First Name ends with 'a'.
 select * from Employees_US where FirstName like '%a'
-
+ 
 --3) Find Employees whose Department contains 'Eng'.
 select * from Employees_US where Department like '%eng%'
 
