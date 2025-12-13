@@ -1,6 +1,6 @@
 --Suppose there is a requirement to combine the outputs of both tables into a single result. 
 --This can be achieved using the UNION ALL operator.
-
+ 
 --To combine the tables without duplicate records, use the UNION operator instead of UNION ALL
 select * from append1
 
