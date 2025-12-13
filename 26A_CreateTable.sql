@@ -5,7 +5,7 @@ FirstName VARCHAR(50),
 LastName VARCHAR(50),
 Department VARCHAR(50)
 );
-
+ 
 -- Insert sample data into Employees table
 INSERT INTO Employees_us (EmployeeID, FirstName, LastName, Department) VALUES
 (1, 'Alice', 'Smith', 'Finance'),
