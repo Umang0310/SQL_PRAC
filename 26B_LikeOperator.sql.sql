@@ -5,7 +5,7 @@ _ (underscore): Represents exactly one character.
 */
  
 select * from Employees_US
-
+ 
 --1) Find Employees whose Last Name starts with 'S'.
 select * from Employees_US where LastName like 's%'
  
