@@ -14,7 +14,7 @@ select * from Employees_US where FirstName like '%a'
  
 --3) Find Employees whose Department contains 'Eng'.
 select * from Employees_US where Department like '%eng%'
-
+ 
 --4) Find Employees whose Last Name is exactly 5 characters long.
 select * from Employees_US where LastName like '_____'
 
