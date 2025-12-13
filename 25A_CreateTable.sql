@@ -5,7 +5,7 @@ values
 (1,'A',5),
 (2,'B',8),
 (3,'C',9)
-
+ 
 
 create table append2(C1 int,C2 nvarchar(255),C3 int)
 
