@@ -1,5 +1,5 @@
 select * from products
-
+ 
 --We need to group the data based on columns category & price into different categories i.e affordable & premium
 select *,
 case
@@ -8,7 +8,7 @@ case
 		when price >= 300 then 'Premium Electronics'
 		else 'Affordable Electronics'
 		end
-	when Category = 'Furniture' then
+	when Category = 'Furniture' then 
 	case
 		when price >= 250 then 'Premium Electronics'
 		else 'Affordable Electronics'
