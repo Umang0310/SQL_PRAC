@@ -12,7 +12,7 @@ case
 	case 
 		when price >= 250 then 'Premium Electronics'
 		else 'Affordable Electronics'
-		end
+		end 
 	else
 	case 
 		when price >= 25 then 'Premium Electronics'
