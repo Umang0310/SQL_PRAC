@@ -7,7 +7,7 @@ case
 	case
 		when price >= 300 then 'Premium Electronics'
 		else 'Affordable Electronics'
-		end 
+		end  
 	when Category = 'Furniture' then 
 	case 
 		when price >= 250 then 'Premium Electronics'
