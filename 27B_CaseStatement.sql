@@ -8,7 +8,7 @@ case
 	else 'Low'
 end as [High/Medium/Low]
 from Products
-
+ 
 -- NULL :::::::::::::: testing :::::::: without else ::::: still works
 select *,
 case 
