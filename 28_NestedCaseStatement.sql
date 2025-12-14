@@ -14,7 +14,7 @@ case
 		else 'Affordable Electronics'
 		end
 	else
-	case
+	case 
 		when price >= 25 then 'Premium Electronics'
 		else 'Affordable Electronics'
 		end
