@@ -7,7 +7,7 @@ CREATE TABLE Products (
     Supplier VARCHAR(50),
     Rating DECIMAL(3, 1)
 );
-
+ 
 INSERT INTO Products (ProductID, ProductName, Category, Price, StockQuantity, Supplier, Rating) VALUES
 (1, 'Wireless Mouse', 'Electronics', 25.99, 150, 'Tech Supplies', 4.5),
 (2, 'Office Chair', 'Furniture', 120.00, 85, 'Comfort Co', 4.7),
