@@ -1,5 +1,5 @@
 --SQL Data Types
-
+ 
 --String Data
 --char, varchar, nchar, nvarchar
 
