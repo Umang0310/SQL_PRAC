@@ -29,7 +29,7 @@ Similarly, nvarchar is like varchar but supports Unicode. Depending on the requi
 --999.99, decimal(5,2)
 /*
 When using the decimal data type, we must specify precision and scale.
-
+ 
 For example, to store the age of students, since age generally does not exceed 255 years, 
 we can use tinyint, which has a range from 0 to 255 and requires only one byte of storage. Although int could also be used, it requires four bytes, so using tinyint is more storage-efficient.
 
