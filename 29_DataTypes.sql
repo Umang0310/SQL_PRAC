@@ -7,7 +7,7 @@
 --varchar(256)
 --nchar(1), it supports unicode
 --nvarchar(256), it supports unicode
-
+    
 /*
 When creating columns to store string data, we can choose from various data types such as char, varchar, nchar, and nvarchar.
 For example, consider a column named gender that can only have two values: 'm' for male and 'f' for female. Since the character length is fixed at one, we can use the char(1) data type. 
