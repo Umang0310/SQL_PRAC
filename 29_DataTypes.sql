@@ -2,7 +2,7 @@
  
 --String Data
 --char, varchar, nchar, nvarchar
-
+ 
 --M or F, char(1)
 --varchar(256)
 --nchar(1), it supports unicode
