@@ -1,7 +1,7 @@
 select * from student_details
 
 insert into student_details
-values
+values 
 ('Mayank','M',18,'2024-02-02',115.35),
 ('Mahesh','M',34,'2023-11-08',324.66)
 
