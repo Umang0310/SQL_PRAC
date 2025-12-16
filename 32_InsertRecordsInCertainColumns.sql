@@ -8,7 +8,7 @@ select * from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME like 'student_details'
 --Datatype of column age is tinyint (0 to 255)
 insert into  student_details (Age)
 values (256) --will nt work
-
+ 
 --You can insert records into specific columns of a table by specifying the column names in the INSERT statement.
 --If you insert values only for some columns, the remaining columns will have NULL values unless a default is specified.
 --It is important to know the data type and allowed range for each column to avoid errors when inserting data.
