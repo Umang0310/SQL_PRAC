@@ -1,7 +1,7 @@
 create database Student
 
 use Student
-
+ 
 create table student_details(
 Student_Name nvarchar(256),
 Gender char(1),
