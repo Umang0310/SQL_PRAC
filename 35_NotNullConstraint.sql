@@ -3,7 +3,7 @@ create database constraints
 use constraints
 
 --Constraints are conditions that can be applied on columns of a table. These conditions are to be followed while inserting records into the table.
-
+ 
 --Not Null constraint
 
 --Case 1 : We will have to create a new table
