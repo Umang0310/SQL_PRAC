@@ -1,5 +1,5 @@
 select * from Customers
-
+ 
 select * from Orders
   
 select * from customers
