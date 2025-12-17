@@ -8,7 +8,7 @@ use constraints
 
 --Case 1 : We will have to create a new table
 create table test_not_null(
-EID int not null,
+EID int not null, 
 age tinyint,
 firstname varchar(256)
 );
