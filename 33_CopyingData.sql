@@ -1,5 +1,5 @@
 --Copying Data From existing table to the New table
-
+ 
 --Case 1 : The New table simply doesn't exist
 select * from dbo.Sales 
 
