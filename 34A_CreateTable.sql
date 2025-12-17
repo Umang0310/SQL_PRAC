@@ -4,7 +4,7 @@ create table Customers(
 	customer_id INT PRIMARY KEY,
 	customer_name VARCHAR(100),
 	email VARCHAR(100)
-);
+); 
 
 -- Insert data into Customers table
 INSERT INTO Customers (customer_id, customer_name, email)
