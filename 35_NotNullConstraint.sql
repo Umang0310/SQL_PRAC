@@ -12,7 +12,7 @@ EID int not null,
 age tinyint,
 firstname varchar(256)
 );
- 
+  
 select * from test_not_null
 
 select * from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME like 'test_not_null'
