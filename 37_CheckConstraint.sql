@@ -14,7 +14,7 @@ select * from test_check
 insert into test_check values (1,'Mayank','2')
 
 insert into test_check values (1,'Mayank','20')-- will not work
-
+ 
 update test_check set EID =11 where EID = 1
 
 --Case 2 : Table exists
