@@ -11,7 +11,7 @@ SID int unique,
 age tinyint not null,
 firstname varchar(256) not null unique,
 lastname varchar(256)
-);
+); 
 
 select * from test_unique
 
