@@ -1,6 +1,6 @@
 --Unique Constraint
 --It ensures that a column consists of unique values
-
+ 
 --Case 1 : when the table already exists
 --alter table test_unique
 --add unique (lastname)
