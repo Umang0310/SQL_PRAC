@@ -4,7 +4,7 @@
 --Case 1 : when the table already exists
 --alter table test_unique
 --add unique (lastname)
-
+ 
 --Case 2 : We need to create the table
 create table test_unique(
 SID int unique,
