@@ -8,7 +8,7 @@ EID int,
 firstname varchar(256),
 age tinyint check (age<=10)
 );
-
+ 
 select * from test_check
 
 insert into test_check values (1,'Mayank','2')
