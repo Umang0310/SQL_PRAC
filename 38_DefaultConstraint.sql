@@ -7,7 +7,7 @@ EID int default 5,
 firstname varchar(256) default 'Umang',
 lastname varchar(256),
 age tinyint
-); 
+);  
 
 select * from test_default
 
