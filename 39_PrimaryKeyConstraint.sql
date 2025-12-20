@@ -9,7 +9,7 @@ eid int primary key,
 gender char(1),
 age tinyint, 
 firstname varchar(256),
-);  
+);   
   
 select * from test_pk_1
 
