@@ -10,7 +10,7 @@ gender char(1),
 age tinyint,
 firstname varchar(256),
 );  
- 
+  
 select * from test_pk_1
 
 insert into test_pk_1 values (1,'M',23,'Mayank')
