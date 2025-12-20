@@ -7,7 +7,7 @@
 create table test_pk_1(
 eid int primary key,
 gender char(1),
-age tinyint,
+age tinyint, 
 firstname varchar(256),
 );  
   
