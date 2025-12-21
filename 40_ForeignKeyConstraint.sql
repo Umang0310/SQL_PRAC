@@ -13,7 +13,7 @@ create table test_primary_key(
 ID int primary key,
 name varchar(256)
 );
- 
+  
 insert into test_primary_key values (1,'Mayank'),(2,'Raj'),(3,'Jayant')
 
 select * from test_Primary_key
