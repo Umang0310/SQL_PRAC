@@ -9,7 +9,7 @@ where salary>50000
 group by department
 having avg(salary)>55000
 order by department
-
+ 
 
 /*
 From & Joins
