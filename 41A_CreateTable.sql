@@ -5,7 +5,7 @@ EmployeeID INT,
 EmployeeName VARCHAR(50),
 Salary INT,
 Department VARCHAR(50)
-); 
+);  
 
 INSERT INTO EmployeeSalaries (EmployeeID, EmployeeName, Salary, Department)
 VALUES
