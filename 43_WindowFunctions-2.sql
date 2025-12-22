@@ -11,7 +11,7 @@ from students
 
 select *,RANK() over (partition by subject order by marks) as [ROW NUMBER ASC]
 from students
-
+ 
 select *,DENSE_RANK() over (partition by subject order by marks desc) as [ROW NUMBER]
 from students
 
