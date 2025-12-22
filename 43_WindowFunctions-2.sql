@@ -7,7 +7,7 @@ select *,ROW_NUMBER() over (partition by subject order by marks) as [ROW NUMBER 
 from students
 
 select *,RANK() over (partition by subject order by marks desc) as [ROW NUMBER]
-from students
+from students 
 
 select *,RANK() over (partition by subject order by marks) as [ROW NUMBER ASC]
 from students
