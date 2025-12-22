@@ -8,7 +8,7 @@ from students
 select *,ROW_NUMBER() over (order by marks asc) as [ROW NUMBER]
 from students 
 
-
+ 
 --Rank -> if there's a tie next rank/ranks will be skipped
 select *,RANK() over (order by marks desc) as [RANK FUNCTION]
 from Students
