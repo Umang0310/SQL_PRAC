@@ -5,7 +5,7 @@ CREATE TABLE Students (
     subject VARCHAR(100),
     marks INT
 );
-
+ 
 INSERT INTO Students (student_name, subject, marks)
 VALUES 
 -- Marks for Alice
