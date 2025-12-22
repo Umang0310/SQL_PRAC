@@ -12,7 +12,7 @@ from students
 --Rank -> if there's a tie next rank/ranks will be skipped
 select *,RANK() over (order by marks desc) as [RANK FUNCTION]
 from Students
-
+ 
 select *,RANK() over (order by marks asc) as [RANK FUNCTION]
 from Students
 
