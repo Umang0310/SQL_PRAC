@@ -7,7 +7,7 @@ CREATE  TABLE ProfitData (
     MonthNumber INT,
     MonthName VARCHAR(3),
     Product VARCHAR(50),
-    Profit INT
+    Profit INT 
 );
 
 -- Insert data into the ProfitData table
