@@ -12,7 +12,7 @@ LEAD(sum(profit)) over (order by monthnumber) [next month total profit]
 from profitdata
 group by monthnumber, monthname
 order by MonthNumber
-
+ 
 --The LEAD function in SQL is used to access data from the next row in a result set, which is useful for comparing values across rows.
 --To use the LEAD function for next month's profit, partition the data by product and order by month number.
 --Aggregating data by month and using LEAD allows for calculation of next month's total profit, even when the original table does not contain this summary.
