@@ -1,5 +1,5 @@
 select * from ProfitData
-
+ 
 -- To add a new column that shows next months profit for each product
 select *,LEAD(profit) over (partition by product order by monthnumber) [NEXT MONTH PROFIT]
 from ProfitData
