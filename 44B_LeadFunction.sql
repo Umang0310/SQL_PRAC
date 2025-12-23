@@ -3,7 +3,7 @@ select * from ProfitData
 -- To add a new column that shows next months profit for each product
 select *,LEAD(profit) over (partition by product order by monthnumber) [NEXT MONTH PROFIT]
 from ProfitData
- 
+  
 -- We dont want product column in the output but we want each months total profit
 -- to be shown by monthnumber & monthname, also a
 -- new column should be added to show next months total profit
