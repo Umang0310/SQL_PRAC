@@ -8,7 +8,7 @@ CREATE  TABLE ProfitData (
     MonthName VARCHAR(3),
     Product VARCHAR(50),
     Profit INT 
-);
+); 
 
 -- Insert data into the ProfitData table
 INSERT INTO ProfitData (MonthNumber, MonthName, Product, Profit) VALUES
