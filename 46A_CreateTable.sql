@@ -9,7 +9,7 @@ CREATE TABLE Customers (
     Address VARCHAR(255)
 );
 
-
+ 
 INSERT INTO Customers (CustomerID, FirstName, LastName, Email, PhoneNumber, Address)
 VALUES
 (1, 'Alice', 'Johnson', 'alice.johnson@example.com', '555-1234', '123 Elm St'),
