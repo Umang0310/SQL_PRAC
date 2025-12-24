@@ -1,7 +1,7 @@
 select * from Customers
 
 --Isnull
-
+ 
 --The ISNULL function checks if a value is NULL. If it is, it replaces it with a specified replacement value. The syntax is as follows:
 --ISNULL(expression,replacement)
 
