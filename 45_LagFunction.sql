@@ -3,7 +3,7 @@ select * from ProfitData
 -- To add a new column that shows previous months profit for each product
 select *,LAG(profit) over (partition by product order by monthnumber) [LAG FUNCTION]
 from ProfitData
- 
+  
 -- we dont want product column in the output but we want each months total
 -- profit to be shown by monthnumber & month name, also a
 -- new column should be added to show previous months total profit
