@@ -8,7 +8,7 @@ CREATE TABLE EmployeeSalaries (
     Salary INT,
     Department VARCHAR(50)
 );
-
+ 
 INSERT INTO EmployeeSalaries (EmployeeID, EmployeeName, Salary, Department)
 VALUES
 (1, 'Alice', 50000, 'HR'),
