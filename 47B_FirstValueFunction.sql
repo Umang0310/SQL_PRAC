@@ -9,7 +9,7 @@ FIRST_VALUE(EmployeeName) over (order by salary asc) [emp with minimum salary],
 FIRST_VALUE(Salary) over (order by salary asc) [minimum salary]
 from EmployeeSalaries
 
-select *,
+select *, 
 FIRST_VALUE(EmployeeID) over (partition by department order by salary asc) [first value]
 from EmployeeSalaries
 
