@@ -1,5 +1,5 @@
 create database [Window Fun]
-
+ 
 use [Window Fun] 
 
 CREATE TABLE EmployeeSalaries (
