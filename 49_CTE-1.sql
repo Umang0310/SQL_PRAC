@@ -8,7 +8,7 @@ and they can make complex queries easier to write, understand, and maintain by b
 use employee_details
 
 select * from employees
-
+ 
 select * into #temp1 from Employees
 
 select * from #temp1
