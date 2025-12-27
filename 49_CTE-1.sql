@@ -4,7 +4,7 @@ can REFERENCE within a
 SELECT, INSERT, UPDATE, or DELETE statement. CTEs are defined using the WITH keyword,
 and they can make complex queries easier to write, understand, and maintain by breaking them into simpler parts.
 */
-
+ 
 use employee_details 
 
 select * from employees
