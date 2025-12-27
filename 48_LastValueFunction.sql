@@ -8,7 +8,7 @@ from employeesalaries
 --This happens because the default frame for window functions is RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW. 
 --Therefore, the LAST_VALUE() function only considers rows up to the current row in the ordering, not the entire dataset.
 
--- Correct Query 
+-- Correct Query  
 select *,
 LAST_VALUE(Employeename) over (order by salary desc 
 rows between unbounded preceding and unbounded following) [emp with lowest salary]
