@@ -1,7 +1,7 @@
 select * from EmployeeSalaries
 
 -- Incorrect Query
-select *,
+select *, 
 LAST_VALUE(Employeename) over (order by salary desc) [emp with lowest salary]
 from employeesalaries
 --this query does not produce the expected result. The employee_with_lowest_salary column shows the same employee name as the current row for each record, rather than the employee with the lowest salary overall.
