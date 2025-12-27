@@ -13,7 +13,7 @@ select * into #temp1 from Employees
 
 select * from #temp1
 
-
+ 
 --Example 1
 
 with CTE as (
