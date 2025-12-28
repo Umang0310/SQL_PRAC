@@ -9,7 +9,7 @@
 with [R CTE] as (
 --Anchor Query
 select 1 as n
-
+ 
 union all  
 
 --Recursive Query
