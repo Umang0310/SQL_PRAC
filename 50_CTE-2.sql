@@ -3,7 +3,7 @@
 select * from Employees
 
 select * into #1 from Employees
- 
+  
 --Example 1 
 with cte1 as (
 select * from #1 where EmployeeID in (1,2)
