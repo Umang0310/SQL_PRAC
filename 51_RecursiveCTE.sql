@@ -3,7 +3,7 @@
 --The anchor query
 --The recursive query
 --These two parts are joined using the UNION ALL operator.
-
+ 
 --First, the anchor query is executed, and its output serves as input to the recursive query.
 
 with [R CTE] as (
