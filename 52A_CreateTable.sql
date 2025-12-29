@@ -1,6 +1,6 @@
 create database testDB
 
-use testdb
+use testdb 
 
 create table Employees(
 EmployeeID INT PRIMARY KEY, 
