@@ -15,7 +15,7 @@ sp_test
 exec sp_test
 --or
 execute sp_test
-
+ 
 
 --Example 2
 create proc sp_test_1
