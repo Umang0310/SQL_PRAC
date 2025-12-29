@@ -2,7 +2,7 @@
 --If there is a piece of code that needs to be used repeatedly, stored procedures enhance reusability.
 
 select * from employees
-
+ 
 --Example 1
 create procedure sp_test
 as
