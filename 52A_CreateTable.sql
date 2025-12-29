@@ -3,7 +3,7 @@ create database testDB
 use testdb
 
 create table Employees(
-EmployeeID INT PRIMARY KEY,
+EmployeeID INT PRIMARY KEY, 
     FirstName NVARCHAR(50),
     LastName NVARCHAR(50),
     Email NVARCHAR(100) UNIQUE,
