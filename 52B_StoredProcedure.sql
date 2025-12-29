@@ -1,6 +1,6 @@
 --A stored procedure is a group of Transact-SQL statements that can be reused. 
 --If there is a piece of code that needs to be used repeatedly, stored procedures enhance reusability.
-
+ 
 select * from employees
  
 --Example 1
