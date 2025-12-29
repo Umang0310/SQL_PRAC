@@ -9,7 +9,7 @@ as
 begin
 	select * from Employees
 end
-
+ 
 sp_test
 --or
 exec sp_test
