@@ -5,7 +5,7 @@
 use testDB
 
 select * from Employees
-
+ 
 select * into emp_bkp from Employees
 
 select * from emp_bkp
