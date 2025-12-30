@@ -6,7 +6,7 @@
 --When SQL Server is instructed to fetch or retrieve data from a table, it performs a scan. 
 --Scanning the entire table reduces performance and consumes more time. To address this, indexes are defined on tables or views. 
 --With indexes, SQL Server can retrieve data without scanning the entire table, resulting in faster data retrieval.
-
+ 
 --Indexes are defined on one or more columns of a table or view. 
 --When defining an index, the order in which the column data is stored in the index can be specified. 
 --If the data is sorted in the index, SQL Server can efficiently identify and retrieve the required records.
