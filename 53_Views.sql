@@ -2,7 +2,7 @@
 -- It helps in reducing the complexity of the code
 -- It helps in implementing security
 
-use testDB 
+use testDB  
 
 select * from Employees
  
