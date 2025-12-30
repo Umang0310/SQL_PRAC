@@ -10,7 +10,7 @@
 --Indexes are defined on one or more columns of a table or view. 
 --When defining an index, the order in which the column data is stored in the index can be specified. 
 --If the data is sorted in the index, SQL Server can efficiently identify and retrieve the required records.
-
+ 
 use testDB
 
 select * from Employees
