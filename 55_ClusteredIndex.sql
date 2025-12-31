@@ -12,7 +12,7 @@ insert into Students values
 (3,'Priya',21,'F'),
 (2,'Nikita',20,'F'),
 (5,'Monica',20,'F')
-
+ 
 -----------------------------
 select * from Students
 
