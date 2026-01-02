@@ -1,5 +1,5 @@
 select * from students
- 
+  
 create nonclustered index ix_2 on students (id)
  
 create nonclustered index ix_1 on students (gender desc, age asc)
