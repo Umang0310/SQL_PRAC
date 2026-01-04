@@ -14,7 +14,7 @@ drop index ix_2 on students
 --Clustered indexes are slightly faster than non-clustered indexes. 
 --If there are columns not present in the non-clustered index, SQL Server must refer back to the table, requiring an additional lookup. 
 --This makes non-clustered indexes slower in such cases.
- 
+  
 --Clustered index is faster than non clustered index because non clustered index needs to refer back to
 --table if selected column is not present in it
 
