@@ -17,5 +17,5 @@ drop index ix_2 on students
   
 --Clustered index is faster than non clustered index because non clustered index needs to refer back to
 --table if selected column is not present in it
-
+ 
 --Non clustered index requires separate disc space for storage, whereas clustered indexes are created on the same table.
