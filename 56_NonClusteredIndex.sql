@@ -10,7 +10,7 @@ drop index ix_2 on students
 
 --Clustered Index determines the physical order in which data is stored in a table while that is
 --not the case with non clustered index
-  
+   
 --Clustered indexes are slightly faster than non-clustered indexes. 
 --If there are columns not present in the non-clustered index, SQL Server must refer back to the table, requiring an additional lookup. 
 --This makes non-clustered indexes slower in such cases.
