@@ -5,7 +5,7 @@ create nonclustered index ix_2 on students (id)
 create nonclustered index ix_1 on students (gender desc, age asc)
       
 drop index ix_2 on students
- 
+  
 --More than one non clustered index can exist while that is not the case with clustered index
 
 --Clustered Index determines the physical order in which data is stored in a table while that is
