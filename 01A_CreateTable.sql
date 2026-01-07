@@ -1,5 +1,5 @@
 Create database employee_details
-
+ 
 use employee_details
  
 Create table Employees(
