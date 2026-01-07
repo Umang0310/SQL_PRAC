@@ -11,7 +11,7 @@ Create table Employees(
 	HireDate DATE
 	 
 );
-
+ 
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, HireDate)
 VALUES 
 (1, 'John', 'Doe', 'HR', 65000.00, '2019-02-20'),
