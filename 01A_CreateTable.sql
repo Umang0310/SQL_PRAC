@@ -13,7 +13,7 @@ Create table Employees(
 );
  
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, HireDate)
-VALUES 
+VALUES  
 (1, 'John', 'Doe', 'HR', 65000.00, '2019-02-20'),
 (2, 'Jane', 'Smith', 'Finance', 60000.00, '2018-05-05'),
 (3, 'Alice', 'Johnson', 'IT', 85000.00, '2020-06-18'),
