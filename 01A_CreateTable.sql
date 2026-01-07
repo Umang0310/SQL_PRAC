@@ -9,7 +9,7 @@ Create table Employees(
 	Department VARCHAR(50),
 	Salary DECIMAL(10,2),
 	HireDate DATE
-
+	 
 );
 
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, HireDate)
