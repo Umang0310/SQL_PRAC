@@ -8,7 +8,7 @@ Create table Employees(
 	LastName VARCHAR(50),
 	Department VARCHAR(50),
 	Salary DECIMAL(10,2),
-	HireDate DATE
+	HireDate DATE 
 	 
 );
  
