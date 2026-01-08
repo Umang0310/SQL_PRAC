@@ -1,7 +1,7 @@
 Create database employee_details
  
 use employee_details
- 
+  
 Create table Employees(
 	EmployeeID INT PRIMARY KEY,
 	FirstName VARCHAR(50),
