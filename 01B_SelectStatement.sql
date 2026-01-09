@@ -5,7 +5,7 @@ SELECT FirstName FROM Employees
 SELECT FirstName,Salary FROM Employees
 
 SELECT FirstName,LastName FROM Employees
-
+ 
 SELECT EmployeeID,CONCAT(firstname,' ',lastname) FROM Employees --used to merge two cloumns
 
 SELECT EmployeeID,CONCAT(LastName,' ',FirstName) FROM Employees --example of concat
