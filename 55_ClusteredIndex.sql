@@ -5,7 +5,7 @@ use test_index
 drop table if exists students
   
 create table Students ( id int, name nvarchar(50), age int, gender varchar(20))
- 
+  
 insert into Students values
 (1,'Raj',23,'M'), 
 (4,'Nitin',25,'M'),
