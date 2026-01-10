@@ -27,7 +27,7 @@ drop index ix_1 on students
 
 create clustered index ix_2 on students (id desc)
 
-select * from Students
+select * from Students 
 
 drop index ix_2 on students
 
