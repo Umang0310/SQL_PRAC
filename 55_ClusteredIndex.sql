@@ -1,6 +1,6 @@
 create database Test_index
  
-use test_index
+use test_index 
  
 drop table if exists students
   
