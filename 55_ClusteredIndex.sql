@@ -1,7 +1,7 @@
 create database Test_index
  
 use test_index 
- 
+  
 drop table if exists students
   
 create table Students ( id int, name nvarchar(50), age int, gender varchar(20))
