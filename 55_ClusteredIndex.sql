@@ -15,7 +15,7 @@ insert into Students values
  
 -----------------------------
 select * from Students
-
+ 
 create clustered index ix_1 on students (id)
 
 select * from Students
